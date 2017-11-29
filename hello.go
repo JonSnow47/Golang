@@ -1,17 +1,9 @@
-/*package main
+package main
 
 import "fmt"
 import "math"
 
 var a,b int = 4,6
-
-func aab() {
-	var length,width int = 10,5
-	var area = length * width
-	fmt.Println("area:",area)
-	println("a")
-	println("b")
-}
 
 func bbc() {
 	var a, b int = 3, 4
@@ -19,6 +11,12 @@ func bbc() {
 	print(a, b, c)
 }
 
+func hello() {
+	var firstname, lastname string
+	fmt.Print("Please input your name: ")
+	fmt.Scanln(&firstname, &lastname)
+	fmt.Printf("Hi,%s %s!\nThanks for use Golang.", firstname, lastname)
+}
 func main() {
-	bbc()
+	hello()
 }
