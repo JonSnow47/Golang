@@ -1,4 +1,4 @@
-/*package main
+package main
 
 func main() {
 	var grade int = 88

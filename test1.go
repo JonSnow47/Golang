@@ -1,18 +1,19 @@
-/*package main
+package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-   var n [10]int /* n 是一个长度为 10 的数组 */
-   var i,j int
+	os()
+}
 
-   /* 为数组 n 初始化元素 */         
-   for i = 0; i < 10; i++ {
-      n[i] = i + 100 /* 设置元素为 i + 100 */
-   }
-
-   /* 输出每个数组元素的值 */
-   for j = 0; j < 10; j++ {
-      fmt.Printf("n[%d] = %d\n", j, n[j] )
-   }
+func os() {
+	var s []float64
+	for i := float64(0); i < 10; i++ {
+		fmt.Println(math.Pow(2, i))
+		s = append(s, math.Pow(2, i))
+	}
+	fmt.Println(s)
 }
