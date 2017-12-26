@@ -1,15 +1,6 @@
 package main
 
 import "fmt"
-import "math"
-
-var a,b int = 4,6
-
-func bbc() {
-	var a, b int = 3, 4
-	var c float64 = math.Sqrt(float64(a * a + b * b))
-	print(a, b, c)
-}
 
 func hello() {
 	var firstname, lastname string
