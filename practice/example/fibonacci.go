@@ -1,12 +1,16 @@
-package main
+package example
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
-	fib()
+func fibonacci() {
+	a, b := 0, 1
+	for b < 2000 {
+		a, b = b, a+b
+		fmt.Println(b)
+	}
 }
 
 func os() {
@@ -16,12 +20,4 @@ func os() {
 		s = append(s, math.Pow(2, i))
 	}
 	fmt.Println(s)
-}
-
-func fib() {
-	a, b := 0, 1
-	for b < 2000 {
-		a, b = b, a+b
-		fmt.Println(b)
-	}
 }

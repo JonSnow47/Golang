@@ -1,4 +1,4 @@
-package math
+package example
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ func Sqrt(x float64) {
 	return
 }
 
-func main() {
+func NewtonSqrt() {
 	fmt.Println("sqrt(2) =",math.Sqrt(2))
 	Sqrt(2)
 }

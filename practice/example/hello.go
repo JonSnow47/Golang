@@ -1,4 +1,4 @@
-package main
+package example
 
 import "fmt"
 
@@ -7,7 +7,4 @@ func hello() {
 	fmt.Print("Please input your name: ")
 	fmt.Scanln(&firstname, &lastname)
 	fmt.Printf("Hi,%s %s!\nThanks for use Golang.\n", firstname, lastname)
-}
-func main() {
-	hello()
 }
