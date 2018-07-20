@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/JonSnow47/Golang/application/lissajous/handler"
+	"github.com/JonSnow47/Golang/app/lissajous/handler"
 	"net/http"
 )
 

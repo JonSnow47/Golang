@@ -1,4 +1,4 @@
-package example
+package slices
 
 import "fmt"
 

@@ -1,14 +1,10 @@
-/*
- * Revision History:
- *     Initial: 2018/05/06        Chen Yanchen
- */
-
 package nsq
 
 import (
 	"log"
 
 	"github.com/nsqio/go-nsq"
+	"github.com/fengyfei/gu/libs/nsq/nsq"
 )
 
 type Conf struct{ Config *nsq.Config }

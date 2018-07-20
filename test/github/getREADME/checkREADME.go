@@ -1,8 +1,3 @@
-/*
- * Revision History:
- *     Initial: 2018/05/11        Chen Yanchen
- */
-
 package main
 
 import (

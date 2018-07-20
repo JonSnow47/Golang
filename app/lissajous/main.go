@@ -4,7 +4,7 @@ package main
 import (
 	"log"
 
-	_ "github.com/JonSnow47/Golang/application/lissajous/router"
+	_ "github.com/JonSnow47/Golang/app/lissajous/router"
 )
 
 func main() {

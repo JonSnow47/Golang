@@ -32,6 +32,6 @@ func select_test(ch1, ch2 chan int) {
 		fmt.Println("get ch2 element.")
 	default:
 		fmt.Println("waiting...")
-		time.Sleep(time.Second * 0.5)
+		time.Sleep(time.Second * 1)
 	}
 }

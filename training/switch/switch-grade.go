@@ -1,4 +1,4 @@
-package example
+package _switch
 
 func GradeLevel(score int) {
 	level := score / 10

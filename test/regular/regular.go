@@ -1,3 +1,4 @@
+// 常用正则表达式
 package main
 
 import (
@@ -12,6 +13,7 @@ func main() {
 	fmt.Println(regular(s))
 }
 
+// 匹配第一个空格前的所有字符
 func regular(s string) string {
 	reg := regexp.MustCompile(`(?U)^.*\s`)
 	return reg.FindString(s)

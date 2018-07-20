@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/JonSnow47/Golang/application/lissajous/modle"
+	"github.com/JonSnow47/Golang/app/lissajous/modle"
 	"net/http"
 	"os"
 )

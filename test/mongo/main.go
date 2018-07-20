@@ -1,7 +1,3 @@
-/*
- * Revision History:
- *     Initial: 2018/05/28        Jon Snow
- */
 package main
 
 import (

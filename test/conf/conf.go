@@ -1,8 +1,3 @@
-/*
- * Revision History:
- *     Initial: 2018/05/21        Chen Yanchen
- */
-
 package conf
 
 import (
