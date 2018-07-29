@@ -1,4 +1,4 @@
-package hello_word
+package main
 
 import (
 	"fmt"
